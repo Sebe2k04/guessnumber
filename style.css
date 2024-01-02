@@ -14,7 +14,9 @@ body{
 }
 #button{
     text-align: center;
-    max-width: 90px;
+    letter-spacing: 1px;
+    max-width: 100px;
+    display: flex;
     padding: 10px 20px;
     border-radius: 15px;
     font-family: 'Orbitron', sans-serif;
