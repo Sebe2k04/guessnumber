@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 body{
     font-family: 'Orbitron', sans-serif;
     padding-top: 100px;
@@ -28,7 +28,18 @@ h1{
 footer{
     left: 0;
     right: 0;
-    display: block;
-    position: relative;
-    margin-top: 100px;
+    bottom: 0;
+    font-family: 'Caveat', cursive;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    
+}
+footer p{
+
+    font-weight: 600;
+    letter-spacing: 1px;
 }
