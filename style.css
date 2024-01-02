@@ -22,5 +22,9 @@ h1{
     font-weight: bold;
 }
 footer{
-    margin: 100px;
+    left: 0;
+    right: 0;
+    display: block;
+    position: relative;
+    margin-top: 100px;
 }
