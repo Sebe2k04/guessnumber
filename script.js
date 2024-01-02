@@ -17,4 +17,15 @@ var ans=Math.floor(Math.random()*10);
                 document.getElementById("score").innerHTML=Number(score);
                 console.log(score)
             }
+            if(num>ans){
+                hint.textContent="HINT : MAX THAN GUESS ";
+            }
+            if(num<ans)
+            {
+                hint.textContent="HINT : MIN THAN GUESS ";
+            }
+        }
+        function reset()
+        {
+            location.reload();
         }
