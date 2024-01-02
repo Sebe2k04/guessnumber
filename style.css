@@ -13,6 +13,7 @@ body{
     border: 2px solid black;
 }
 #button{
+    cursor: pointer;
     text-align: center;
     letter-spacing: 1px;
     max-width: 100px;
